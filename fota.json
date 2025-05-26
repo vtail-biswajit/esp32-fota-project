@@ -1,0 +1,8 @@
+{
+    "type": "esp32-fota-http",
+    "version": 1,
+    "url": "https://github.com/vtail-biswajit/esp32-fota-firmware/raw/main/firmware/firmware.bin",
+    "host": "github.com",
+    "port": 443,
+    "bin": "/vtail-biswajit/esp32-fota-firmware/raw/main/firmware/firmware.bin"
+}
