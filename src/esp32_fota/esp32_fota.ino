@@ -74,11 +74,11 @@ void loop() {
   static unsigned long lastCheck = 0;
   unsigned long currentMillis = millis();
   
-  if (currentMillis - lastCheck >= 3600000) {
+  if (currentMillis - lastCheck >= 30000) {
     lastCheck = currentMillis;
     checkForUpdates();
   }
-  
+  Serial.println("This is firmware v1");
   // Your main application code here
   delay(1000);
 }
